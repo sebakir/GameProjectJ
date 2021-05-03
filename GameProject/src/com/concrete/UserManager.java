@@ -19,6 +19,7 @@ public class UserManager implements IUserService {
 			System.out.println(user.getFirstName() + " eklendi");
 		}
 		else {
+			
 			throw new Exception("not invalid user : "+user.getFirstName());
 			
 		}

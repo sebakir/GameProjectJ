@@ -13,10 +13,10 @@ public class Main {
 
 		User user1 = new User();
 		user1.setId(1);
-		user1.setFirstName("seçkin emre");
-		user1.setLastName("bakır");
+		user1.setFirstName("SEÇKİN EMRE");
+		user1.setLastName("BAKIR");
 		user1.setDateOfBirth(1998);
-		user1.setNationalityId(12312312323L);
+		user1.setNationalityId(17495041326L);
 
 		UserManager manager = new UserManager(new MersisServiceAdapter());
 		manager.add(user1);
